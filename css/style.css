@@ -116,3 +116,99 @@ body {
     cursor: pointer;
     padding: 5px;
 }
+.lang i {
+    padding: 0;
+    margin: 0;
+    color: #555;
+}
+.lang {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.right img {
+    inline-size: 30px;
+    block-size: 30px;
+    padding: 4px;
+    margin: 0;
+    padding-block-start: 10px;
+    cursor: pointer;
+}
+.sign {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.sign span:first-child {
+    font-weight: 400;
+    font-size: 13px;
+}
+.sign span {
+    display: inline-block;
+    inline-size: 100%;
+    font-weight: bold;
+}
+.flex .ac span {
+    font-size: 15px;
+    margin-inline-end: 5px;
+    font-weight: bold;
+}
+.fa-shopping-cart {
+    font-size: 30px;
+}
+.ca {
+    font-size: 14px;
+    font-weight: bold;
+}
+.cart {
+    align-items: flex-end;
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.cart p {
+    position: absolute;
+    font-weight: bolder;
+    color: #131a22;
+    inset-block-start: 7px;
+    inset-inline-start: 23px;
+}
+.cart:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.logo img:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.map:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.lang:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.sign:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.lang:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.input .fa-search:hover {
+    background-color: #fdae46;
+}
+.input div:hover {
+    background-color: rgb(204,202,202);
+    color: #000;
+}
