@@ -177,7 +177,7 @@ body {
 .cart p {
     position: absolute;
     font-weight: bolder;
-    color: #131a22;
+    color: #fdae46;
     inset-block-start: 7px;
     inset-inline-start: 23px;
 }
@@ -211,4 +211,178 @@ body {
 .input div:hover {
     background-color: rgb(204,202,202);
     color: #000;
+}
+.second {
+    inline-size: 100%;
+    block-size: 42px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+}
+.second ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.second span {
+    font-size: 15px;
+}
+.second-1 div {
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.second li {
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 7px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.second-1 {
+    flex: .06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-1 div {
+    display: flex;
+    align-items: center;
+    padding-inline-start: 5px;
+}
+.second-2 {
+    display: flex;
+    flex: .74;
+    justify-content: flex-start;
+}
+.second-1 div span {
+    padding: 5px;
+    cursor: pointer;
+}
+.second-1 div:hover {
+    border: 1px solid #fff;
+}
+.second-2 li:hover {
+    border: 1px solid #fff;;
+}
+
+/* ************* SLIDER SECTION *************** */
+.sec-1 {
+    position: relative;
+    inline-size: 100%;
+    block-size: 1190px;
+    box-sizing: border-box;
+}
+.slide img {
+    inline-size: 1360px;
+    block-size: 100%;
+}
+.container {
+    position: relative;
+    inline-size: 100%;
+    block-size: auto;
+}
+.slider {
+    inline-size: 100%;
+    overflow: hidden;
+    position: relative;
+    block-size: 560px;
+}
+.image-box {
+    display: flex;
+    position: absolute;
+    animation: carousel 15s alternate infinite;
+}
+@keyframes carousel {
+    0% {
+        inset-inline-start: 0;
+    }
+    20% {
+        inset-inline-start: 0%;
+    }
+    24% {
+        inset-inline-start: -1360px;
+    }
+    50% {
+        inset-inline-start: -1360px;
+    }
+    54% {
+        inset-inline-start: calc(-1360*2px);
+    }
+    80% {
+        inset-inline-start: calc(-1360*2px);
+    }
+    84% {
+        inset-inline-start: calc(-1360*3px);
+    }
+    100% {
+        inset-inline-start: calc(-1360*3px);
+    }
+}
+
+/* ******************** CATEGORY SECTION ********************* */
+.container-1 {
+    position: absolute;
+    z-index: 1;
+    top: 190px;
+    left: 0;
+    inline-size: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent #eaeded 30%);
+}
+.container-1 div:first-child {
+    font-size: 14px;
+    padding: 12px 0;
+}
+.product-comp {
+    inline-size: 100%;
+    block-size: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 23px 0;
+    justify-content: space-around;
+}
+.product-comp .box {
+    inline-size: 315px;
+    block-size: 400px;
+    background-color: #fff;
+}
+.box h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(43,42,42);
+}
+.box a {
+    font-size: 13px;
+    margin-left: 20px;
+    display: block;
+    padding-top: 30px;
+}
+.box-a {
+    overflow: hidden;
+    background-color: #fff;
+}
+.box div img {
+    inline-size: 167px;
+    block-size: 120px;
+    cursor: pointer;
+    margin-left: -20px;
+    margin-right: 0;
+}
+.box-a div {
+    display: inline-block;
+}
+.box-a div span {
+    display: block;
+    font-size: 13px;
+    margin-left: 28px;
 }
