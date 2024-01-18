@@ -7,7 +7,7 @@
 }
 body {
     inline-size: 100%;
-    background-color: #fff;
+    background-color: #eaeded;
     box-sizing: border-box;
 }
 .first {
@@ -337,16 +337,17 @@ body {
     align-items: center;
     background: linear-gradient(to bottom, transparent #eaeded 30%);
 }
-.container-1 div:first-child {
+.container-1 div:first-child p {
     font-size: 14px;
     padding: 12px 0;
+    /* gap: 2rem; */
 }
 .product-comp {
     inline-size: 100%;
     block-size: 100%;
     display: flex;
     box-sizing: border-box;
-    margin: 23px 0;
+    margin: 20px 0;
     justify-content: space-around;
 }
 .product-comp .box {
@@ -385,4 +386,86 @@ body {
     display: block;
     font-size: 13px;
     margin-inline-start: 28px;
+}
+.box.box-c img {
+    margin: 0 20px;
+    inline-size: 275px;
+    cursor: pointer;
+    block-size: 280px;
+}
+
+/* ************* SCROLL SECTION *************** */
+.sec-2 {
+    inline-size: 100%;
+    block-size: 315px;
+    padding: 25px;
+    padding-block-start: 0;
+    padding-block-end: 25px;
+}
+.slide-sec h3  {
+    font-size: 20px;
+    padding-block-end: 5px;
+}
+.slide-sec {
+    inline-size: 100%;
+    block-size: 100%;
+    padding: 20px 20px  10px 20px;
+    overflow-x: hidden;
+    background-color: #fff;
+    position: relative;
+}
+.product-slide {
+    display: flex;
+    margin-block-start: 5px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.product-slide::-webkit-scrollbar {
+    background-color: transparent;
+    block-size: 7px;
+    cursor: pointer;
+}
+.product-slide::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    cursor: pointer;
+}
+.product-slide li {
+    list-style: none;
+    margin-inline-end: 10px;
+    margin-block-end: 15px;
+    cursor: pointer;
+}
+.l-btn,
+.r-btn {
+    background-color: rgb(255,255,255, 1);
+    block-size: 90px;
+    inline-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    inset-block-start: 35%;
+    position: absolute;
+    border: 3px solid transparent;
+}
+.l-btn {
+    border-radius: 0 5px 5px 0;
+    inset-inline-start: 20px;
+}
+.r-btn {
+    border-radius: 5px 0 0 5px;
+    inset-inline-end: 20px;
+}
+.l-btn:hover {
+    border: 3px solid rgb(2,150,158);
+}
+.r-btn:hover {
+    border: 3px solid rgb(2,150,150);
+}
+.r-btn i, 
+.l-btn i {
+    color: rgb(54,54,54);
+    position: absolute;
+    font-size: 30px;
+    inset-block-start: 35%;
+    inset-inline-start: 13%;
+    inset-inline-end: 13%;
 }
