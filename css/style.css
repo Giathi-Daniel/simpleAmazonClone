@@ -328,8 +328,8 @@ body {
 .container-1 {
     position: absolute;
     z-index: 1;
-    top: 190px;
-    left: 0;
+    inset-block-start: 190px;
+    inset-inline-start: 0;
     inline-size: 100%;
     padding: 20px;
     display: flex;
@@ -355,17 +355,17 @@ body {
     background-color: #fff;
 }
 .box h3 {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-block-start: 20px;
+    margin-inline-start: 20px;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-block-end: 10px;
     color: rgb(43,42,42);
 }
 .box a {
     font-size: 13px;
-    margin-left: 20px;
+    margin-inline-start: 20px;
     display: block;
-    padding-top: 30px;
+    padding-block-start: 30px;
 }
 .box-a {
     overflow: hidden;
@@ -375,8 +375,8 @@ body {
     inline-size: 167px;
     block-size: 120px;
     cursor: pointer;
-    margin-left: -20px;
-    margin-right: 0;
+    margin-inline-start: -20px;
+    margin-inline-end: 0;
 }
 .box-a div {
     display: inline-block;
@@ -384,5 +384,5 @@ body {
 .box-a div span {
     display: block;
     font-size: 13px;
-    margin-left: 28px;
+    margin-inline-start: 28px;
 }
