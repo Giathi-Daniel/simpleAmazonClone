@@ -475,16 +475,16 @@ body {
 
 /* **************** PRODUCTS SECTION ********************** */
 .box-c a {
-    padding-top: 10px;
+    padding-block-start: 10px;
 }
 .box-d div img {
     inline-size: 147px;
     block-size: 110px;
-    margin-left: 5px;
-    margin-right: 0px;
+    margin-inline-start: 5px;
+    margin-inline-end: 0px;
 }
 .box-d div span {
-    margin-bottom: 10px;
+    margin-block-end: 10px;
 }
 
 /* ************* PRODUCTS SECTION 2****************8 */
