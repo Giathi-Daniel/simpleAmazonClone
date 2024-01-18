@@ -10,6 +10,9 @@ body {
     background-color: #eaeded;
     box-sizing: border-box;
 }
+.section {
+    padding: 2rem 40%;
+}
 .first {
     inline-size: 100%;
     block-size: 70px;
@@ -469,3 +472,19 @@ body {
     inset-inline-start: 13%;
     inset-inline-end: 13%;
 }
+
+/* **************** PRODUCTS SECTION ********************** */
+.box-c a {
+    padding-top: 10px;
+}
+.box-d div img {
+    inline-size: 147px;
+    block-size: 110px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+.box-d div span {
+    margin-bottom: 10px;
+}
+
+/* ************* PRODUCTS SECTION 2****************8 */
