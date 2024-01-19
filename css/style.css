@@ -487,4 +487,104 @@ body {
     margin-block-end: 10px;
 }
 
-/* ************* PRODUCTS SECTION 2****************8 */
+/* ************* SIDEBAR SECTION****************8 */
+.sidebar {
+    background-color: #fff;
+    inline-size: 300px;
+    block-size: 100%;
+    transition: all .5s;
+    block-size: 100%;
+    position: absolute;
+    z-index: 10;
+    overflow-y: scroll;
+    box-shadow: 2px 2px 30px #000;
+}
+.hdn-head {
+    display: flex;
+    background-color: #232f3a;
+    block-size: 60px;
+    inline-size: 100%;
+    color: #fff;
+    text-align: center;
+}
+.hdn-head i {
+    margin: 20px;
+}
+.hdn-head h2 {
+    line-height: 60px;
+}
+.hdn-content h3 {
+    padding: 20px 25px;
+    color: rgb(30,30,39);
+}
+.hdn-content ul div {
+    display: flex;
+    cursor: pointer;
+    transition: all .2s;
+    font-size: 14px;
+    color: rgb(70,70,70);
+    padding: 15px 25px;
+    justify-content: space-between;
+}
+.line {
+    inline-size: 100%;
+    block-size: 1px;
+}
+.fa-xmark {
+    inset-block-start: 20px;
+    inset-inline-start: 400px;
+    position: absolute;
+    font-size: 30px;
+}
+.sidebar.active {
+    transform: translateX(0);
+}
+.fa-xmark.active {
+    display: block;
+}
+
+/* *(********* Account & Lists *******) */
+.triangle {
+    position: absolute;
+    z-index: 101;
+    inset-inline-end: 179px;
+    inset-block-start: 42px;
+    background-color: transparent;
+    inline-size: 0px;
+    block-size: 0px;
+    transition: all 2s;
+    border: 12px solid blue;
+    border-color: transparent transparent #fff;
+}
+.hdn-sign {
+    position: absolute;
+    z-index: 101;
+    transition: all 2s;
+    inline-size: 500px;
+    block-size: 350px;
+    inset-block-start: 65px;
+    inset-inline-end: 80px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.hdn-table {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.hdn-table h3 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+.hdn-table li {
+    color: rgb(84,84,84);
+    font-size: 13px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.hdn-line {
+    inline-size: 0.5px;
+    color: #000;
+    background-color: rgb(190,190,190);
+    block-size: 300px;
+}
