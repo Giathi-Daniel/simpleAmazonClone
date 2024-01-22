@@ -492,6 +492,7 @@ body {
     background-color: #fff;
     inline-size: 300px;
     block-size: 100%;
+    transform: translateX(-390px);
     transition: all .5s;
     block-size: 100%;
     position: absolute;
@@ -535,6 +536,24 @@ body {
     inset-inline-start: 400px;
     position: absolute;
     font-size: 30px;
+    display: none;
+    z-index: 101;
+    cursor: pointer;
+}
+.fa-angle-right {
+    color: rgb(27,27,27);
+}
+.hdn-content ul div:hover {
+    background-color: rgb(230,227,227);
+}
+.hdn-content ul {
+    padding-block-end: 9px;
+}
+.black {
+    position: absolute;
+    inline-size: 0%;
+    block-size: 100%;
+    background-color: rgba(0,0,0,0.7);
 }
 .black.active {
     inline-size: 100%;
@@ -543,11 +562,18 @@ body {
 .black.active-1 {
     inset-block-start: 70px;
     inline-size: 100%;
+    z-index: 99;
 }
 .sidebar.active {
     transform: translateX(0);
 }
 .fa-xmark.active {
+    display: block;
+}
+.hdn-sign.active {
+    display: block;
+}
+.triangle.active {
     display: block;
 }
 
@@ -597,4 +623,72 @@ body {
     color: #000;
     background-color: rgb(190,190,190);
     block-size: 300px;
+}
+.stop-scroll {
+    overflow: hidden;
+    block-size: 100%;
+}
+
+
+/* ********** FOOTER SECTION ************** */
+.footer{
+    inline-size: 100%;
+    block-size: 490px;
+    transition: all .2s;
+}
+.backtop {
+    text-align: center;
+    block-size: 50px;
+    background-color: #37475a;
+    padding: 16px;
+    cursor: pointer;
+}
+.backtop span {
+    color: #fff;
+    font-weight: bold;
+} 
+.backtop:hover {
+    background-color: #4d627c;
+}
+.detail {
+    background-color: #232f3a;
+    block-size: 360px;
+}
+.table {
+    margin: 0 150px;
+    block-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-block-start: 50px;
+}
+.table div {
+    inline-size: 230px;
+}
+.t-head {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    margin-block-end: 5px;
+}
+.table li {
+    color: rgb(233,221,221);
+    padding-block-start: 18px;
+    font-weight: lighter;
+    font-size: 14px;
+    list-style: none;
+}
+.copy {
+    background-color: #232f3e;
+    block-size: 50px;
+    padding: 40px;
+    text-align: center;
+}
+.copy span {
+    color: #fff;
+    font-size: 14px;
+}
+.line {
+    block-size: 0.5px;
+    inline-size: 100%;
+    background-color: rgb(172,172,172);
 }
