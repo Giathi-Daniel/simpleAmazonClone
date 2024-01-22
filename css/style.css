@@ -331,7 +331,7 @@ body {
 .container-1 {
     position: absolute;
     z-index: 1;
-    inset-block-start: 190px;
+    inset-block-start: 230px;
     inset-inline-start: 0;
     inline-size: 100%;
     padding: 20px;
@@ -339,6 +339,11 @@ body {
     flex-direction: column;
     align-items: center;
     background: linear-gradient(to bottom, transparent #eaeded 30%);
+}
+.container-1 .para {
+    background-color: rgb(238,234,234);
+    inline-size: 100%;
+    text-align: center;
 }
 .container-1 div:first-child p {
     font-size: 14px;
@@ -354,7 +359,7 @@ body {
     justify-content: space-around;
 }
 .product-comp .box {
-    inline-size: 315px;
+    inline-size: 309px;
     block-size: 400px;
     background-color: #fff;
 }
