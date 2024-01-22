@@ -536,6 +536,14 @@ body {
     position: absolute;
     font-size: 30px;
 }
+.black.active {
+    inline-size: 100%;
+    z-index: 100;
+}
+.black.active-1 {
+    inset-block-start: 70px;
+    inline-size: 100%;
+}
 .sidebar.active {
     transform: translateX(0);
 }
@@ -549,6 +557,7 @@ body {
     z-index: 101;
     inset-inline-end: 179px;
     inset-block-start: 42px;
+    display: none;
     background-color: transparent;
     inline-size: 0px;
     block-size: 0px;
@@ -562,6 +571,7 @@ body {
     transition: all 2s;
     inline-size: 500px;
     block-size: 350px;
+    display: none;
     inset-block-start: 65px;
     inset-inline-end: 80px;
     background-color: #fff;
